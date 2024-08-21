@@ -3,9 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d04095ad42.js" crossorigin="anonymous"></script>
+
+
     <title>Prueba Primer Modulo</title>
 </head>
+
 <body>
+    <!-- barra de navegancion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NBA Fandom</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Imagenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Redes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
+    <!-- seccion principal (main) -->
+    <main class="container mt-5 p-3">
+        <img src="Assets/img/Sin título-2.png" alt="" class="logoNBA"> 
+        <h1>NBA</h1>
+        <h2>National Basketball Association</h2>  
+        <p>
+            La National Basketball Association, más conocida simplemente por sus siglas NBA, es una liga privada de baloncesto profesional que se disputa en Estados Unidos desde 1949, cuando se fusionaron las ligas profesionales National Basketball League (NBL, creada en 1937) y la Basketball Association of America (BAA, fundada en 1946). Al ser una entidad privada, no depende oficialmente de la Federación Estadounidense de Baloncesto. Los jugadores de la NBA están autorizados a competir internacionalmente tras un acuerdo especial a tres bandas firmado en 1989 entre la Federación Internacional de Baloncesto (FIBA) —máximo organismo a nivel mundial—, la propia NBA y la Federación Estadounidense.
+        </p>
+        <p>
+            Fue al término de la Segunda Guerra Mundial cuando un grupo de hombres —en su mayoría propietarios de algunos de los recintos deportivos de diferentes ciudades estadounidenses—, se reunieron en el Madison Square Garden de Nueva York con el fin de buscar alternativas para llenar dichos pabellones con algo más que hockey sobre hielo y boxeo, los cuales atraían mucho público, pero que no alcanzaban a llenar sus aforos. Pensando en algo totalmente distinto que fuera capaz de completar el calendario, además de ofrecer a la población estadounidense un nuevo entretenimiento, vieron en el baloncesto el evento ideal para conseguir sus objetivos. Es así como el 6 de junio de 1946 se firmó el nacimiento de lo que, con el paso del tiempo, se convirtió en una de las ligas deportivas más seguidas en todo el mundo, la Basketball Association of America (BAA), que años más tarde pasó a denominarse NBA
+        </p>
+        <p>
+            El primer dirigente o comisionado de la liga fue Maurice Podoloff, quien además era el presidente de la National Hockey League (NHL). Once ciudades fueron las establecidas de acoger a un equipo que las representase, siendo esencialmente ciudades ubicadas en la costa Este de los Estados Unidos: Nueva York, Chicago, Boston, Providence, Toronto, Cleveland, San Luis, Washington D. C., Detroit, Pittsburgh y Philadelphia.
+        </p>
+        <p>
+            Desde la temporada 2004-05 está conformada por 30 equipos o franquicias divididos en dos conferencias, la Este, y la Oeste, las cuales a su vez se encuentran divididas en tres divisiones de cinco equipos cada una.
+        </p>
+        <p>
+            En cuanto a jugadores, el que ha logrado mayor número de campeonatos de la NBA es Bill Russell, con once títulos en trece años de carrera (todos con los Boston Celtics), el jugador con más MVP de las Finales de la NBA es Michael Jordan con seis, el jugador con más MVP de la Temporada de la NBA es Kareem Abdul-Jabbar con seis, el máximo anotador histórico de la competición es LeBron James, el jugador con más premios individuales es Michael Jordan y el que ostenta más récords estadísticos individuales es Wilt Chamberlain
+        </p>
+    </main>
+
+    <!-- seccion galeria de imagenes -->
+    <section class="bg-body-tertiary my-5 p-3 container">
+        <h2>Estrellas</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Assets/img/Carousel/LeBron-James.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LeBron James</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/img/Carousel/Curry.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Stephen Curry</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/img/Carousel/nikola jokic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nikola Jokic</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/img/Carousel/kevin-durant.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kevin Durant</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/img/Carousel/luka doncic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Luka Doncic</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/img/Carousel/anthony edwards.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Anthony Edwards</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    <!-- footer -->
+    <footer>
+        <a href="https://www.sportingnews.com/ar/nba?gr=www">Sitio Oficial</a>
+        <a href="https://www.instagram.com/nba/">Instagram</a>
+        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.facebook.com/nba">Facebook</a>
+        <i class="fa-brands fa-facebook"></i>
+    </footer>
 </body>
 </html>
