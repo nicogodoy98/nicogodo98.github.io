@@ -23,9 +23,7 @@ footer{
     display: flex;
     gap: 3rem;
 }
-.divFooter{
-    gap: 1.5rem;
-}
+
 footer a{
     color: aliceblue;
     text-decoration: none;
